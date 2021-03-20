@@ -41,4 +41,10 @@ class ColorFilter extends Filter {
   void addSubFilters(List<ColorSubFilter> subFilters) {
     this.subFilters.addAll(subFilters);
   }
+  
+  void removeSubFilters(int nums){
+    for(int i = subFilters.length - 1; i > nums - 1; i--){
+      this.subFilters.removeAt(i);
+    }
+  }
 }
