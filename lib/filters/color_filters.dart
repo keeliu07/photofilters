@@ -43,8 +43,8 @@ class ColorFilter extends Filter {
   }
   
   void removeSubFilters(int nums){
-    for(int i = subFilters.length - 1; i >= nums - 2; i--){
-      this.subFilters.removeAt(i);
+    for(int i = 0; i < nums; i++){
+      this.subFilters.removeLast()
     }
   }
 }
