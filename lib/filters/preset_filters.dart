@@ -8,10 +8,10 @@ import 'package:photofilters/filters/subfilters.dart';
 class NoFilter extends ColorFilter {
   NoFilter() : super(name: "No Filter");
 
-  @override
-  void apply(Uint8List pixels, int width, int height) {
-    // Do nothing
-  }
+//   @override
+//   void apply(Uint8List pixels, int width, int height) {
+//     // Do nothing
+//   }
 }
 
 // Clarendon: adds light to lighter areas and dark to darker areas
